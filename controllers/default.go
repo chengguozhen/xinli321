@@ -2,7 +2,7 @@ package controllers
 
 import (
 	"github.com/astaxie/beego"
-	"github.com/usual2970/xinli32/models"
+	"github.com/usual2970/xinli321/models"
 	"time"
 	"github.com/astaxie/beego/orm"
 	"os"
