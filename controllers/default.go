@@ -167,8 +167,8 @@ func genBanner(snapshots []models.Snapshots,targetPath string){
 
 
 
-	var Cfg = beego.AppConfig
-	expertPicPath:=Cfg.String("expert_pic_path")
+
+	expertPicPath:=config.ImagePath+"experts/"
 	for i:=0;i<len(snapshots);i++{
 		
 		fileName:=expertPicPath+strconv.Itoa(snapshots[i].Experts.SiteId) +"/80/"+snapshots[i].Experts.Id+".jpg"
