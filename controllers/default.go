@@ -3,6 +3,7 @@ package controllers
 import (
 	"github.com/astaxie/beego"
 	"github.com/usual2970/xinli321/models"
+	"github.com/usual2970/xinli321_spider/config"
 	"time"
 	"github.com/astaxie/beego/orm"
 	"os"
@@ -107,8 +108,7 @@ func (c *MainController) Get() {
 	o.QueryTable("snapshots").Filter("Snapat", snapAt).OrderBy(sort).Limit(40).RelatedSel("experts").All(&snapshots)
 	c.Data["data"]=snapshots
 
-	var Cfg = beego.AppConfig
-	hotPicPath:=Cfg.String("hot_pic_path")
+	hotPicPath:=config.ImagePath+"banner/hot/"
 	datePath:=hotPicPath+snapAt+"/"
 	if isDirectoryExist(datePath)==false{
 		os.Mkdir(datePath,os.ModePerm)
