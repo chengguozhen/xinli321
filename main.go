@@ -1,7 +1,7 @@
 package main
 
 import (
-	_ "github.com/usual2970/xinli32/routers"
+	_ "github.com/usual2970/xinli321/routers"
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"
 	"fmt"

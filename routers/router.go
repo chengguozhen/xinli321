@@ -1,7 +1,7 @@
 package routers
 
 import (
-	"github.com/usual2970/xinli32/controllers"
+	"github.com/usual2970/xinli321/controllers"
 	"github.com/astaxie/beego"
 )
 
