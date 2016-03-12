@@ -10,4 +10,5 @@ func init() {
     beego.Router("/:page(\\d+)", &controllers.MainController{})
     beego.AutoRouter(&controllers.CommentController{})
     beego.AutoRouter(&controllers.AboutController{})
+    beego.AutoRouter(&controllers.QuestionController{})
 }

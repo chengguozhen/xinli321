@@ -41,7 +41,19 @@ type Experts struct {
   Snapshots []*Snapshots `orm:"reverse(many)"` // fk 的反向关系
 }
 
+
+type Questions struct {
+    Id          string   `orm:"pk"`
+    OriginId  string
+    OriginUrl   string
+    Title string
+    Content string
+    AnswerNum int
+    Tags string
+}
+
+
 func init() {
     // 需要在init中注册定义的model
-    orm.RegisterModel(new(Experts),new(Snapshots))
+    orm.RegisterModel(new(Experts),new(Snapshots),new(Questions))
 }

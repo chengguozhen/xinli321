@@ -49,7 +49,7 @@ var suxingme_url = {"url_ajax":"http:\/\/grace.iwpzt.com\/wp-admin\/admin-ajax.p
          <ul id="menu-navigation" class="menu">
             <li><a href="/about/here">关于这里</a></li>
             <li><a href="/">热门咨询师</a></li>
-            <li><a href="/question">热门回复</a></li>
+            <li><a href="/question/index">热门回复</a></li>
             <li class="current-menu-item"><a href="/about/log">更新日志</a></li>
             <li class="current-menu-item"><a href="/comment/index">留言板</a></li>
     
@@ -71,7 +71,7 @@ var suxingme_url = {"url_ajax":"http:\/\/grace.iwpzt.com\/wp-admin\/admin-ajax.p
         <ul class="mobile_nav">
             <li><a href="/about/here">关于这里</a></li>
             <li><a href="/">热门咨询师</a></li>
-            <li><a href="/question">热门回复</a></li>
+            <li><a href="/question/index">热门回复</a></li>
             <li class="current-menu-item"><a href="/about/log">更新日志</a></li>
             <li class="current-menu-item"><a href="/comment/index">留言板</a></li>
         </ul>
@@ -84,7 +84,7 @@ var suxingme_url = {"url_ajax":"http:\/\/grace.iwpzt.com\/wp-admin\/admin-ajax.p
       <ul id="mobile-menu" class="menu">
             <li><a href="/about/here">关于这里</a></li>
             <li><a href="/">热门咨询师</a></li>
-            <li><a href="/question">热门回复</a></li>
+            <li><a href="/question/index">热门回复</a></li>
             <li class="current-menu-item"><a href="/about/log">更新日志</a></li>
             <li class="current-menu-item"><a href="/comment/index">留言板</a></li>
       </ul>   

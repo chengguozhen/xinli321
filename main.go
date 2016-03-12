@@ -6,6 +6,7 @@ import (
 	"github.com/astaxie/beego/orm"
 	"fmt"
 	_ "github.com/go-sql-driver/mysql"
+	"strconv"
 
 )
 
@@ -34,6 +35,17 @@ func initGlobal(){
 
 	orm.RegisterDriver("mysql", orm.DRMySQL)
 	orm.RegisterDataBase("default", "mysql", dbLink, maxIdleConn, maxOpenConn)
+
+
+
+	beego.AddFuncMap("mod12",mod12)
 	
 
 }
+
+func mod12(in string)(out string){
+    tempI,_:=strconv.Atoi(in)
+    out=strconv.Itoa(tempI%12)
+    return
+}
+
