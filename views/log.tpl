@@ -10,7 +10,21 @@
 		<div class="page-content">
 			<div class="mod-archive">
 
+				<div class="mod-archive-year">2016-03-12</div>
+				<ul class="mod-archive-list">
+					<li> 
+						添加了壹心理问答数据，整理出历史回复最多的top40，回复内容可以到源网站查看
+					</li>
+																
+				</ul>
 
+				<div class="mod-archive-year">2016-03-11</div>
+				<ul class="mod-archive-list">
+					<li> 
+						添加了壹点灵咨询师的数据
+					</li>
+																
+				</ul>
 				<div class="mod-archive-year">2016-03-10</div>
 				<ul class="mod-archive-list">
 					<li> 
